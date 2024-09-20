@@ -20,7 +20,7 @@ function dividir(a, b) {
 }
 
 function calculadora() {
-  const operacao = prompt('Escolha a operação (adicionar, subtrair): ');
+  const operacao = prompt('Escolha a operação (adicionar, subtrair, multiplicar, dividir): ');
   const num1 = parseFloat(prompt('Digite o primeiro número: '));
   const num2 = parseFloat(prompt('Digite o segundo número: '));
 
