@@ -1,6 +1,6 @@
 # Desafio Ada Santander - Calculadora
 
-Este projeto é uma calculadora simples que realiza as quatro operações matemáticas básicas: adição, subtração, multiplicação e divisão. O projeto foi desenvolvido como parte do desafio final do curso Ada Santander.
+Este projeto é uma calculadora simples que realiza as quatro operações matemáticas básicas: adição, subtração, multiplicação e divisão. O projeto foi desenvolvido como parte do desafio final de github do curso Ada Santander.
 
 ## Funcionalidades
 
