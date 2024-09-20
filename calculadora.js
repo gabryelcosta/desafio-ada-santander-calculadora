@@ -4,8 +4,12 @@ function adicionar(a, b) {
   return a + b;
 }
 
+function subtrair(a, b){
+  return a - b;
+}
+
 function calculadora() {
-  const operacao = prompt('Escolha a operação (adicionar): ');
+  const operacao = prompt('Escolha a operação (adicionar, subtrair): ');
   const num1 = parseFloat(prompt('Digite o primeiro número: '));
   const num2 = parseFloat(prompt('Digite o segundo número: '));
 
@@ -14,6 +18,9 @@ function calculadora() {
       case 'adicionar':
           resultado = adicionar(num1, num2);
           break;
+      case 'subtrair':
+        resultado = subtrair(num1, num2);
+        break;
       default:
           console.log('Operação inválida!');
           return;
